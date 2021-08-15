@@ -10,13 +10,13 @@
 <body>
     <div class="container">
         <div class="cronometro">
-            <div class="num">
-                <h1>00:00:00</h1>
+            <div>
+                <h1 id="num">00:00:00</h1>
             </div>
             <div class="btns">
-                <button class="pausarBtn">Pausar</button>
-                <button class="iniciarBtn">Iniciar</button>
-                <button class="pararBtn">Parar</button>
+                <button onclick="pause();" class="pausarBtn">Pausar</button>
+                <button onclick="start();" class="iniciarBtn">Iniciar</button>
+                <button onclick="stop();" class="pararBtn">Parar</button>
             </div>
         </div>
     </div>
