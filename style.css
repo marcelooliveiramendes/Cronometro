@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cronometro{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.cronometro h1{
+    font-size: 10em;
+    font-weight: 100;
+    color: white;
+}
+
+.cronometro .btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cronometro .btns .pausarBtn{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: rgb(29, 28, 28);  
+    border: 1px solid rgb(204, 204, 8);
+    color: rgb(204, 204, 8);
+    font-weight: bold;
+}
+.cronometro .btns .pausarBtn:hover{
+    background-color:rgb(204, 204, 8);
+    color:#fff;
+    transition: .2s;
+}
+
+.cronometro .btns .iniciarBtn{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 75px;
+    background-color: rgb(29, 28, 28);
+    border: 1px solid rgb(9, 197, 9);
+    color: rgb(9, 197, 9);
+    font-weight: bold;
+}
+.cronometro .btns .iniciarBtn:hover{
+    background-color:rgb(9, 197, 9);
+    color:#fff;
+    transition: .2s;
+}
+
+.cronometro .btns .pararBtn{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: rgb(29, 28, 28);
+    border: 1px solid red;
+    color: red;
+    font-weight: bold;
+}
+.cronometro .btns .pararBtn:hover{
+    background-color:red;
+    color:#fff;
+    transition: .2s;
+}
